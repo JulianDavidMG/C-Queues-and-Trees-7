@@ -5,13 +5,14 @@
 
 /*
 Ejemplo 1: Puntero a variable
-Este ejemplo muestra cómo declarar una variable entera, obtener su dirección y almacenarla en un puntero. Luego se imprime el valor de la variable y el valor al que apunta el puntero.
+Este ejemplo muestra cómo declarar una variable entera, obtener su dirección y almacenarla en un puntero. 
+Luego se imprime el valor de la variable y el valor al que apunta el puntero.
 - int x = 5; // Se declara una variable entera y se inicializa en 5
 - int *p = &x; // Se declara un puntero a int y se le asigna la dirección de x
 - printf(...) // Se imprime el valor de x y el valor al que apunta p (que es x)
 */
 void ejemplo1() {
-    int x = 5;
+    int x = 10;
     int *p = &x;
     printf("Ejemplo 1: x = %d, *p = %d\n", x, *p);
 }
