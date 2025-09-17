@@ -35,10 +35,25 @@ void ejercicio4(){
     printf("\n");
 }
 
+struct persona{
+    char nombre[10];
+    int edad;
+};
+void ejercicio5(){
+    struct persona p1 = {"Juan",15};
+    struct persona *p = &p1;
+    printf("Ejercicio 5: %s tiene %d años\n", p->nombre, p->edad);
+    
+};
+
+
+
+
 int main(){
     ejercicio1();
     ejercicio2();
     ejercicio3();
     ejercicio4();
+    ejercicio5();
     return 0;
 }
