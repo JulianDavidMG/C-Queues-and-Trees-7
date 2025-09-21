@@ -47,7 +47,12 @@ void ejercicio5(){
 };
 
 
-
+void ejercicio6() {
+    int y = 15;
+    int *ptr = &y;
+    int **pptr = &ptr;
+    printf("Ejercicio: y = %d, *ptr = %d, **pptr = %d\n", y, *ptr, **pptr);
+}
 
 int main(){
     ejercicio1();
@@ -55,5 +60,6 @@ int main(){
     ejercicio3();
     ejercicio4();
     ejercicio5();
+    ejercicio6();
     return 0;
 }
